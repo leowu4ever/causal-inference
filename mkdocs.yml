@@ -1,0 +1,43 @@
+# Meta data
+site_name: MkDocs demo doc
+copyright: Created by Leo Wu in 2023
+repo_url: https://github.com/leowu4ever/mkdocs-template
+repo_name: mkdocs-template
+
+# Page structure
+nav: 
+- Home:
+  - Into to uplift modelling: uplift_modelling.ipynb
+  - Causal forest: causal_forest.ipynb
+
+# No need to change anything here.
+plugins:
+  - search
+  # third party plugins
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+
+# The options below are for manipulating the webpage layout. You don't have to change the below.
+# You can follow the guide in https://squidfunk.github.io/mkdocs-material/setup/
+theme:
+  name: 'material'  # don't remove this line as it tell MkDocs to use Material theme.
+  font:
+    text: Arial
+  # light & dark mode
+  palette: 
+    - scheme: default
+      primary: deep purple  # header background color
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+        
+    - scheme: slate
+      primary: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
