@@ -53,7 +53,6 @@ jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.8
 jupyterlab_server==2.23.0
 jupytext==1.14.7
-kaleido==0.1.0.post1
 lightgbm==4.0.0
 llvmlite==0.40.1
 Markdown==3.3.7
