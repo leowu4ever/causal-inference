@@ -6,7 +6,7 @@ repo_name: causal inference items
 
 # Page structure
 nav: 
-- Posts: index.md
+- Overview: index.md
 
 # No need to change anything here.
 plugins:
@@ -24,18 +24,16 @@ theme:
   # light & dark mode
   palette: 
     - scheme: slate
-      primary: deep purple  # header background color
+      primary: pink  # header background color
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
         
     - scheme: default
-      primary: deep purple
+      primary: pink
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
   features:
-    - navigation.sections
     - navigation.top
- 
