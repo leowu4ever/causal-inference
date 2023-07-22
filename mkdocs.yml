@@ -1,14 +1,12 @@
 # Meta data
-site_name: MkDocs demo doc
+site_name: Causal inference items
 copyright: Created by Leo Wu in 2023
-repo_url: https://github.com/leowu4ever/mkdocs-template
-repo_name: mkdocs-template
+repo_url: https://github.com/leowu4ever/causal-inference-items
+repo_name: causal inference items
 
 # Page structure
 nav: 
-- Home:
-  - Into to uplift modelling: uplift_modelling.ipynb
-  - Causal forest: causal_forest.ipynb
+- Posts: index.md
 
 # No need to change anything here.
 plugins:
@@ -25,19 +23,19 @@ theme:
     text: Arial
   # light & dark mode
   palette: 
-    - scheme: default
+    - scheme: slate
       primary: deep purple  # header background color
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
         
-    - scheme: slate
+    - scheme: default
       primary: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
   
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.top
+ 
